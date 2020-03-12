@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Titulo: "
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:id="@+id/txtTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:text="Titulo "
+            android:textSize="17sp"
+            android:layout_weight=".8"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Publicado: "
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:id="@+id/txtFechaP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fecha "
+            android:textSize="17sp"
+            android:layout_weight=".8"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Editorial: "
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:id="@+id/txtEditorial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Editorial "
+            android:textSize="17sp"
+            android:layout_weight=".8"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ISBN: "
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:id="@+id/txtIsbn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Isbn"
+            android:textSize="17sp"
+            android:layout_weight=".8"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Paginas "
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:id="@+id/txtPaginas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Paginas"
+            android:textSize="17sp"
+            android:layout_weight=".8"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorMy"/>
+
+</LinearLayout>

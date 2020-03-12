@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item
+        android:id="@+id/opcionInicio"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="Inicio" />
+
+    <item android:title="Libros">
+        <menu>
+            <item
+                android:id="@+id/opcionLibros"
+                android:icon="@android:drawable/ic_menu_add"
+                android:title="Ver Libros" />
+            <item
+                android:id="@+id/opcionBuscarLibro"
+                android:icon="@android:drawable/ic_menu_search"
+                android:title="Buscar Libro" />
+        </menu>
+    </item>
+
+
+    <item android:title="Autores">
+        <menu>
+            <item
+                android:id="@+id/opcionAutores"
+                android:icon="@android:drawable/ic_menu_search"
+                android:title="Autores" />
+            <!--<item
+                android:id="@+id/opcionBuscarAutores"
+                android:icon="@android:drawable/ic_menu_search"
+                android:title="Buscar Autor" />
+            <item
+                android:id="@+id/opcionLibrosdeunautor"
+                android:icon="@android:drawable/ic_menu_search"
+                android:title="Libros de autor" />-->
+
+        </menu>
+    </item>
+    <item android:title="Otros">
+        <menu>
+            <item android:id="@+id/opcionLogout"
+                android:title="Cerrar sesion"
+                android:icon="@drawable/ic_action_name"/>
+        </menu>
+    </item>
+
+
+    <!--<item android:title="Generos">
+        <menu>
+            <item
+                android:id="@+id/opcionGeneros"
+                android:icon="@android:drawable/ic_menu_search"
+                android:title="Listar" />
+            <item
+                android:id="@+id/opcionBuscarGeneros"
+                android:icon="@android:drawable/ic_menu_search"
+                android:title="Buscar Genero" />
+            <item
+                android:id="@+id/opcionLibrosGeneros"
+                android:icon="@android:drawable/ic_menu_search"
+                android:title="Libros por Genero" />
+        </menu>
+    </item>-->
+</menu>
